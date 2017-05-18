@@ -1,0 +1,37 @@
+#!/bin/sh
+
+# Install homebrew (used for package and application management)
+# For more info see: https://brew.sh
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
+
+# Install packages & useful tools
+brew install ack
+brew install openssl
+brew install libdvdcss
+brew install wget
+brew install git
+
+# -> Development tools
+brew cask install visual-studio-code
+brew cask install docker
+brew cask install virtualbox
+brew cask install robomongo
+brew cask install filezilla
+brew cask install postman
+brew cask install vagrant
+brew cask install the-unarchiver
+brew cask install sequel-pro
+
+# -> General applications (media players etc)
+brew cask install handbrake
+brew cask install transmission
+brew cask install skype
+brew cask install vlc
+brew cask install steam
+brew cask install transmission
+brew cask install spotify
+
+# -> Web browsers
+brew cask install firefox
+brew cask install google-chrome
