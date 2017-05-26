@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# Install VisualStudio Code extensions
+code --install-extension robertohuertasm.vscode-icons
+code --install-extension alefragnani.bookmarks
+code --install-extension ms-vscode.csharp
+code --install-extension aeschli.vscode-css-formatter
+code --install-extension jinsihou.diff-tool
+code --install-extension PeterJausovec.vscode-docker
+code --install-extension EditorConfig.editorconfig
+code --install-extension sleistner.vscode-fileutils
+code --install-extension Borke.puppet
+code --install-extension dbankier.vscode-instant-markdown
+code --install-extension donjayamanne.python
+code --install-extension felixfbecker.php-intellisense
+code --install-extension dzannotti.vscode-babel-coloring
+code --install-extension joelday.docthis
+code --install-extension xabikos.javascriptsnippets
+code --install-extension mohsen1.prettify-json
+code --install-extension shinnn.stylelint
+code --install-extension viatsko.perl-html-template
+code --install-extension dbaeumer.vscode-eslint
