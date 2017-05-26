@@ -10,6 +10,8 @@ brew install ack
 brew install openssl
 brew install libdvdcss
 brew install wget
+brew install htop
+brew install tree
 brew install git
 
 # -> Development tools
