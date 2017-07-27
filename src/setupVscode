@@ -20,3 +20,6 @@ code --install-extension mohsen1.prettify-json
 code --install-extension shinnn.stylelint
 code --install-extension viatsko.perl-html-template
 code --install-extension dbaeumer.vscode-eslint
+
+# Copy settings file across (this will overrite any existing settings.json contents)
+cp ./conf/vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
