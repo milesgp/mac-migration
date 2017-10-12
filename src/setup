@@ -18,7 +18,7 @@ brew install git
 brew cask install visual-studio-code
 brew cask install docker
 brew cask install virtualbox
-brew cask install robomongo
+brew cask install robo-3t
 brew cask install filezilla
 brew cask install postman
 brew cask install vagrant
