@@ -17,6 +17,7 @@ brew install git
 # -> Development tools
 brew cask install visual-studio-code
 brew cask install docker
+brew cask install kitematic
 brew cask install virtualbox
 brew cask install robo-3t
 brew cask install filezilla
